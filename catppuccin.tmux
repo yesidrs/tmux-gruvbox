@@ -66,7 +66,7 @@ main() {
 
   status_background=$(get_tmux_option "@catppuccin_status_background" "theme")
   if [ "${status_background}" = "theme" ]; then
-    set status-bg "${thm_bg}"
+    set status-bg "${thm_trasparent}"
     message_background="${thm_gray}"
   else
     if [ "${status_background}" = "default" ]; then
